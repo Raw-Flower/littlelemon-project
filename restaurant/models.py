@@ -25,4 +25,4 @@ class Menu(models.Model):
         ordering = ['-id']
     
     def __str__(self):
-        return str(self.id) 
+        return f'{self.title} : {self.price}' 
